@@ -17,6 +17,24 @@ It’s designed for busy entrepreneurs or content creators who want to keep thei
 
 ## 📊 Workflow Diagram
 
+<pre>
+Google Sheets Trigger
+        ↓
+    Scheduler (check post time)
+        ↓
+ ┌─────────────┐
+ ↓             ↓
+Twitter Node   LinkedIn Node
+        ↓             ↓
+         \           /
+          \         /
+           → Analytics Node
+                    ↓
+                Email Report
+</pre>
+
+
+
 
 *Workflow screenshot to be illustrated after full implementation)*
 
